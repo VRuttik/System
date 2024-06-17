@@ -10,8 +10,10 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -38,9 +40,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/loginin" element={<Login />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
+
+        <Footer />
       </div>
     </Router>
   );

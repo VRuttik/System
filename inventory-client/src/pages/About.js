@@ -22,6 +22,16 @@ function About() {
               />
             </div>
           </div>
+
+          <div className='row'>
+          <div className="col-md-12">
+              <h1>What We Do</h1>
+              <p>
+              Advika Welfare Foundation was established in 2017 with the aim of providing higher education to destitute children
+              coming from rural areas. As of June 2019, we are supporting 12 such students - 10 residential and 2 non-residential.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     );

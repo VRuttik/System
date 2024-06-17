@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+    background-color: #007bff; /* Light grey background */
+    padding: 20px;
+    text-align: center;
+    color: white; /* Bootstrap's secondary text color */
+    margin-top: 20px;
+    border-top: 1px solid #e9ecef; /* Light border on top */
+    position: relative;
+  }
+  
+  .footer a {
+    color: white; /* Icon color */
+    margin-left: 10px;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #024d9c; /* Icon hover color */
+  }
+  
+  .footer i {
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .footer i {
+      font-size: 1.2rem;
+    }
+  }
+  
+  

@@ -1,10 +1,11 @@
 import React from 'react';
+import '../pages/SignUp.css';
 
 function SignUp() {
     return (
         <div className="container">
             <h2>Sign Up</h2>
-            <form>
+            <form>  
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name</label>
                     <input type="text" className="form-control" id="name" required />

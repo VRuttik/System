@@ -36,15 +36,23 @@ function Nav() {
                         <li className="nav-item">
                             <Link className="nav-link w3-padding-16 w3-margin-left" to="/contact">Contact</Link>
                         </li>
+
+                        <li className="nav-item">
+                            <Link className="nav-link w3-padding-16 w3-margin-left" to="/gallery">Gallery</Link>
+                        </li>
                     </ul>
 
                     {/* Right-aligned buttons */}
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item moveright">
-                            <button className="btn btn-primary nav-link w3-padding-16 w3-margin-right" type="button"><a SignIn</button>
+                            <Link className="nav-link w3-padding-16 w3-margin-left" to="/login">
+                               SignIn
+                            </Link>
                         </li>
                         <li className="nav-item moveright">
-                            <button className="btn btn-primary nav-link w3-padding-16 w3-margin-right" type="button">SignUp</button>
+                            <Link className="nav-link w3-padding-16 w3-margin-left" to="/signup">
+                                SignUp
+                            </Link>
                         </li>
                     </ul>
                 </div>

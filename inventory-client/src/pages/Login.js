@@ -1,4 +1,5 @@
 import React from 'react';
+import '../pages/Login.css';
 
 function Login() {
     return (

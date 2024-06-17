@@ -46,6 +46,22 @@ const Contact = () => {
             <a href="https://www.facebook.com/AdvikaWelfarFoundation">@AdvikaWelfarFoundation</a></p>
         </div>
       </div>
+      <br></br><br></br>
+      <div className='row'>
+        <div className='col-md-12'>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.6627023752244!2d73.79867087436732!3d18.498931469836503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfcba8f7b30d%3A0xd118bcd6f67fd8d2!2sAdvika%20Welfare%20Foundation!5e0!3m2!1sen!2sin!4v1718624363208!5m2!1sen!2sin"
+            width="1330"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+
     </div>
   );
 }
