@@ -3,7 +3,7 @@ import '../pages/Login.css';
 
 function Login() {
     return (
-        <div className="container">
+        <div className="container login-fixed">
             <h2>Login</h2>
             <form>
                 <div className="mb-3">

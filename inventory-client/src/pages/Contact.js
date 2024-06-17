@@ -8,10 +8,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid w3-margin-top">
       <div className="row">
         {/* Left side - Contact Form */}
-        <div className="col-md-6">
+        <div className="col-md-6 w3-margin-top" >
           <h2>Contact Us</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
 
         {/* Right side - Contact Information */}
-        <div className="col-md-6">
+        <div className="col-md-6 w3-margin-top">
           <h2>Contact Information</h2>
           <p><strong>Reg. Address:</strong><br />
             4A Pradnyadeep Apt, Pradnya Park, Mahatma Soc, Kothrud, Pune 411038</p>
