@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import '../pages/Login.css';
 
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-    const history = useHistory();
+    const navigate = useNavigate(); // Use useNavigate hook for navigation
 
     function handleSubmit(event) {
         event.preventDefault();
@@ -20,7 +20,7 @@ function Login() {
         .then(response => response.json())
         .then(data => {
             if (data.status === 'success') {
-                history.push('/main');
+                navigate('/main'); // Use navigate function to navigate
             } else {
                 setError('Invalid email or password');
             }
