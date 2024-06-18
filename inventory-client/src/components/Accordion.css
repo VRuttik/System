@@ -1,0 +1,49 @@
+.accordion-item {
+    margin-bottom: 1em;
+}
+
+.accordion-content {
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-top: none;
+    background: #f9f9f9;
+}
+
+.w3-padding-16 {
+    padding: 16px !important;
+}
+
+.w3-button {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap;
+    margin: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    border-radius: 2px;
+    user-select: none;
+}
+
+.w3-block {
+    display: block;
+    width: 100%;
+}
+
+.w3-left-align {
+    text-align: left !important;
+}
+
+.w3-red {
+    color: #fff !important;
+    background-color: #f44336 !important;
+}
+
+.w3-hover-pink:hover {
+    background-color: #ff4081 !important;
+}

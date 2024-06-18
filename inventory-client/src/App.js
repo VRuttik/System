@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+import Main from './pages/Main';
 import Footer from './components/Footer';
 
 function App() {
@@ -20,22 +21,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
-
-       <nav>
-        {/*
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-          */}
-        </nav> 
+ 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -43,6 +29,8 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/main" element={Main} />
+          
         </Routes>
 
         <Footer />
