@@ -6,13 +6,15 @@ const Home = () => {
     return (
         <div className='container'>
             <img 
-                src="https://dummyimage.com/600x250/000000/099ea1" 
+                src="https://dummyimage.com/600x250/ffffff/006aff&text=Advika+Welfare+Foundation" 
                 className="img-fluid" 
                 alt="..."
             />
             <div className="App">
                 <h1>Accordion Button Example</h1>
-                <Accordion title="Accordion 1" content="This is the content of Accordion 1." />
+                
+                <Accordion title="Accordion 1" content="Inventory Managament Expence Managament Donar System" />
+
             </div>
         </div>
     );

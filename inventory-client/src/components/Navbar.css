@@ -1,38 +1,51 @@
+/* Navbar */
+.navbar-static-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-logo {
+  height: 60px; /* Default height of the navbar logo */
+  width: auto; /* Allow the width to adjust automatically */
+}
+
+/* Media query for smaller screens */
 @media (max-width: 1645px) {
   .navbar-logo {
-    height: 40px; /* Adjust the height as needed for smaller screens */
-    width: 70px; /* Adjust the width as needed for smaller screens */
+    height: 40px; /* Adjusted height for smaller screens */
+    width: 70px; /* Adjusted width for smaller screens */
     max-width: none; /* Allow the width to adjust automatically */
   }
 }
 
+/* Navbar Toggler */
+.navbar-toggler {
+  border-color: #fff; /* Color of the border for the navbar toggler */
+}
 
-.navbar {
-    background-color: #007bff;
-  }
-  
-  .navbar-brand {
-    color: #fff;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
-  .navbar-nav .nav-link.active {
-    font-weight: bold;
-  }
-  
-  .navbar-toggler {
-    border-color: #fff;
-  }
-  
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
+.navbar-toggler-icon {
+  /* Custom background image for the navbar toggler icon */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
 
-  .moveright{
-    float: right;
-    margin-right: auto;
-  }
-  
+/* Right-aligned items */
+.moveright {
+  margin-left: 10px; /* Adjust spacing between right-aligned links */
+}
