@@ -1,5 +1,6 @@
-.container{
-    margin-top: 15%
+.container {
+background-color: white;
+border: 2px solid whitesmoke;
 }
 
 @media (max-width: 1645px) {

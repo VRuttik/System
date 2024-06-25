@@ -13,21 +13,21 @@ const Contact = () => {
       <div className="container-fluid w3-margin-top">
         <div className="row">
           {/* Left side - Contact Form */}
-          <div className="col-md-6 w3-margin-top">
+          <div className="col-md-6 w3-margin-top border border-primary">
             <h2>Contact Us</h2>
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
-                <label htmlFor="name" className="form-label">Name</label>
+                <label htmlFor="name" className="form-label">Name:</label>
                 <input type="text" className="form-control" id="name" name="name" required />
               </div>
               <div className="mb-3">
-                <label htmlFor="email" className="form-label">Email address</label>
+                <label htmlFor="email" className="form-label">Email address:</label>
                 <input type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" required />
                 <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 <ValidationError prefix="Email" field="email" errors={state.errors} />
               </div>
               <div className="mb-3">
-                <label htmlFor="message" className="form-label">Message</label>
+                <label htmlFor="message" className="form-label">Message:</label>
                 <textarea className="form-control" id="message" name="message" rows="5" required></textarea>
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
 
           {/* Right side - Contact Information */}
-          <div className="col-md-6 w3-margin-top">
+          <div className="col-md-6 w3-margin-top border border-primary">
             <h2>Contact Information</h2>
             <p><strong>Reg. Address:</strong><br />
               4A Pradnyadeep Apt, Pradnya Park, Mahatma Soc, Kothrud, Pune 411038</p>
