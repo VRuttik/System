@@ -10,12 +10,7 @@ const Home = () => {
                 className="img-fluid" 
                 alt="..."
             />
-            <div className="App">
-                <h1>Accordion Button Example</h1>
-                
-                <Accordion title="Accordion 1" content="Inventory Managament Expence Managament Donar System" />
-
-            </div>
+            
         </div>
     );
 };
